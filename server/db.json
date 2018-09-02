@@ -1,0 +1,558 @@
+{
+  "users": [
+    {
+      "id": "23",
+      "firstName": "Bill",
+      "age": 20
+    },
+    {
+      "id": "40",
+      "firstName": "Alex",
+      "age": 40
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "referenceId": 1,
+      "orderReference": "MO000001",
+      "sellAmount": 1000.5,
+      "buyAmount": 1523.1,
+      "baseCcy": "USD",
+      "fixedCcy": "USD",
+      "sellCcy": "USD",
+      "buyCcy": "NZD",
+      "status": "active",
+      "type": "limit",
+      "rate": 1.523,
+      "roundingPrecisionBuy": 2,
+      "roundingPrecisionSell": 2,
+      "clientReference": "my first reference",
+      "createdDate": "01 Oct 2017",
+      "description": "Limit-Active-NoRecipient-HasReference-NoExpiryDate",
+      "userId": "23"
+    },
+    {
+      "id": "2",
+      "referenceId": 2,
+      "orderReference": "MO000002",
+      "sellAmount": 1000,
+      "buyAmount": 1523,
+      "baseCcy": "USD",
+      "fixedCcy": "USD",
+      "sellCcy": "USD",
+      "buyCcy": "NZD",
+      "status": "active",
+      "type": "limit",
+      "rate": 1.523,
+      "recipient": "Isobel Miller",
+      "expiryDate": "01 Oct 2018",
+      "roundingPrecisionBuy": 2,
+      "roundingPrecisionSell": 2,
+      "createdDate": "01 Oct 2017",
+      "description": "Limit-Active-HasRecipient-NoReference-HasExpiryDate",
+      "userId": "40"
+    },
+    {
+      "id": "6",
+      "referenceId": 6,
+      "orderReference": "MO000006",
+      "sellAmount": 1000,
+      "buyAmount": 1523,
+      "baseCcy": "USD",
+      "fixedCcy": "USD",
+      "sellCcy": "USD",
+      "buyCcy": "NZD",
+      "status": "cancelled",
+      "rate": 1.523,
+      "type": "limit",
+      "roundingPrecisionBuy": 2,
+      "roundingPrecisionSell": 2,
+      "cancelledDate": "01 Oct 2018",
+      "createdDate": "01 Oct 2017",
+      "recipient": "Isobel Miller",
+      "clientReference": "Deposity for invoice",
+      "description": "Limit-cancelled-HasRecipient-HasReference-HasCancelledDate",
+      "userId": "40"
+    },
+    {
+      "id": "10",
+      "referenceId": 10,
+      "orderReference": "MO000010",
+      "sellAmount": 1000,
+      "buyAmount": 1523,
+      "baseCcy": "USD",
+      "fixedCcy": "USD",
+      "sellCcy": "USD",
+      "buyCcy": "NZD",
+      "status": "filled",
+      "rate": 1.523,
+      "filledRate": 1.523,
+      "type": "limit",
+      "roundingPrecisionBuy": 2,
+      "roundingPrecisionSell": 2,
+      "filledDate": "01 Oct 2018",
+      "createdDate": "01 Oct 2017",
+      "description": "Limit-Filled-NoRecipient-NoReference-HasFilledDate",
+      "userId": "23",
+      "transactionDetailsLink": "http://google.com"
+    },
+    {
+      "referenceId": 3,
+      "orderReference": "TESTMO001",
+      "sellAmount": 100.25,
+      "buyAmount": 250.25,
+      "baseCcy": "AUD",
+      "fixedCcy": "AUD",
+      "sellCcy": "NZD",
+      "buyCcy": "AUD",
+      "status": "active",
+      "type": "limit",
+      "rate": 1.252,
+      "roundingPrecisionBuy": 2,
+      "roundingPrecisionSell": 2,
+      "createdDate": "18 Jul 2018",
+      "description": "Limit-Active-NoRecipient-HasReference-NoExpiryDate",
+      "userId": "23",
+      "id": "G1kzAGT"
+    },
+    {
+      "referenceId": 11,
+      "orderReference": "TESTMO002",
+      "sellAmount": 100.25,
+      "buyAmount": 250.25,
+      "baseCcy": "AUD",
+      "fixedCcy": "AUD",
+      "sellCcy": "NZD",
+      "buyCcy": "AUD",
+      "status": "active",
+      "type": "limit",
+      "rate": 1.252,
+      "roundingPrecisionBuy": 2,
+      "roundingPrecisionSell": 2,
+      "createdDate": "18 Jul 2018",
+      "description": "Limit-Active-NoRecipient-HasReference-NoExpiryDate",
+      "userId": "23",
+      "id": "cAct3TF"
+    },
+    {
+      "referenceId": 15,
+      "orderReference": "TESTMO004",
+      "sellAmount": 100.25,
+      "buyAmount": 250.25,
+      "baseCcy": "AUD",
+      "fixedCcy": "AUD",
+      "sellCcy": "NZD",
+      "buyCcy": "AUD",
+      "status": "active",
+      "type": "limit",
+      "rate": 1.252,
+      "roundingPrecisionBuy": 2,
+      "roundingPrecisionSell": 2,
+      "createdDate": "18 Jul 2018",
+      "description": "Limit-Active-NoRecipient-HasReference-NoExpiryDate",
+      "userId": 23,
+      "id": "MularWv"
+    },
+    {
+      "referenceId": 16,
+      "orderReference": "TESTMO005",
+      "sellAmount": 100.25,
+      "buyAmount": 250.25,
+      "baseCcy": "AUD",
+      "fixedCcy": "AUD",
+      "sellCcy": "NZD",
+      "buyCcy": "AUD",
+      "status": "active",
+      "type": "limit",
+      "rate": 1.252,
+      "roundingPrecisionBuy": 2,
+      "roundingPrecisionSell": 2,
+      "createdDate": "18 Jul 2018",
+      "description": "Limit-Active-NoRecipient-HasReference-NoExpiryDate",
+      "userId": "23",
+      "id": "ltG3IkJ"
+    },
+    {
+      "referenceId": 17,
+      "orderReference": "TESTMO007",
+      "sellAmount": 100.25,
+      "buyAmount": 250.25,
+      "baseCcy": "AUD",
+      "fixedCcy": "AUD",
+      "sellCcy": "NZD",
+      "buyCcy": "AUD",
+      "status": "active",
+      "type": "limit",
+      "rate": 1.252,
+      "roundingPrecisionBuy": 2,
+      "roundingPrecisionSell": 2,
+      "createdDate": "18 Jul 2018",
+      "description": "Limit-Active-NoRecipient-HasReference-NoExpiryDate",
+      "userId": "23",
+      "id": "HvblRwR"
+    }
+  ],
+  "currencies": [
+    {
+      "code": "AED",
+      "decimalPrecision": 2,
+      "maxOrderSize": 481211,
+      "minOrderSize": 4,
+      "canBuy": true,
+      "canSell": true,
+      "name": "UAE Dirham"
+    },
+    {
+      "code": "AUD",
+      "decimalPrecision": 2,
+      "maxOrderSize": 169719,
+      "minOrderSize": 1,
+      "canBuy": true,
+      "canSell": true,
+      "name": "Australian Dollar"
+    },
+    {
+      "code": "BGN",
+      "decimalPrecision": 2,
+      "maxOrderSize": 220167,
+      "minOrderSize": 2,
+      "canBuy": true,
+      "canSell": true,
+      "name": "Bulgarian Lev"
+    },
+    {
+      "code": "BHD",
+      "decimalPrecision": 3,
+      "maxOrderSize": 49367,
+      "minOrderSize": 0,
+      "canBuy": true,
+      "canSell": true,
+      "name": "Bahrani Dinar"
+    },
+    {
+      "code": "BWP",
+      "decimalPrecision": 2,
+      "maxOrderSize": 1374405,
+      "minOrderSize": 13,
+      "canBuy": true,
+      "canSell": false,
+      "name": "Botswana Pula"
+    },
+    {
+      "code": "CAD",
+      "decimalPrecision": 2,
+      "maxOrderSize": 168011,
+      "minOrderSize": 1,
+      "canBuy": true,
+      "canSell": true,
+      "name": "Canadian Dollar"
+    },
+    {
+      "code": "CHF",
+      "decimalPrecision": 2,
+      "maxOrderSize": 130855,
+      "minOrderSize": 1,
+      "canBuy": true,
+      "canSell": true,
+      "name": "Swiss Franc"
+    },
+    {
+      "code": "CZK",
+      "decimalPrecision": 2,
+      "maxOrderSize": 2886216,
+      "minOrderSize": 28,
+      "canBuy": true,
+      "canSell": true,
+      "name": "Czech Koruna"
+    },
+    {
+      "code": "DKK",
+      "decimalPrecision": 2,
+      "maxOrderSize": 836341,
+      "minOrderSize": 8,
+      "canBuy": true,
+      "canSell": true,
+      "name": "Danish Krone"
+    },
+    {
+      "code": "EUR",
+      "decimalPrecision": 2,
+      "maxOrderSize": 112385,
+      "minOrderSize": 1,
+      "canBuy": true,
+      "canSell": true,
+      "name": "Euro"
+    },
+    {
+      "code": "FJD",
+      "decimalPrecision": 2,
+      "maxOrderSize": 274734,
+      "minOrderSize": 2,
+      "canBuy": true,
+      "canSell": false,
+      "name": "Fijian Dollar"
+    },
+    {
+      "code": "GBP",
+      "decimalPrecision": 2,
+      "maxOrderSize": 100000,
+      "minOrderSize": 1,
+      "canBuy": true,
+      "canSell": true,
+      "name": "Great British Pound"
+    },
+    {
+      "code": "GHS",
+      "decimalPrecision": 2,
+      "maxOrderSize": 577113,
+      "minOrderSize": 5,
+      "canBuy": true,
+      "canSell": false,
+      "name": "Ghanaian Cedi"
+    },
+    {
+      "code": "HKD",
+      "decimalPrecision": 2,
+      "maxOrderSize": 1022133,
+      "minOrderSize": 10,
+      "canBuy": true,
+      "canSell": true,
+      "name": "Hong Kong Dollar"
+    },
+    {
+      "code": "HRK",
+      "decimalPrecision": 2,
+      "maxOrderSize": 846148,
+      "minOrderSize": 8,
+      "canBuy": true,
+      "canSell": true,
+      "name": "Croatian Kuna"
+    },
+    {
+      "code": "HUF",
+      "decimalPrecision": 0,
+      "maxOrderSize": 34985717,
+      "minOrderSize": 349,
+      "canBuy": true,
+      "canSell": true,
+      "name": "Hungarian Forint"
+    },
+    {
+      "code": "ILS",
+      "decimalPrecision": 2,
+      "maxOrderSize": 459305,
+      "minOrderSize": 4,
+      "canBuy": true,
+      "canSell": true,
+      "name": "Israeli Shekel"
+    },
+    {
+      "code": "JOD",
+      "decimalPrecision": 2,
+      "maxOrderSize": 92923,
+      "minOrderSize": 0,
+      "canBuy": true,
+      "canSell": false,
+      "name": "Jordanian Dinar"
+    },
+    {
+      "code": "JPY",
+      "decimalPrecision": 0,
+      "maxOrderSize": 14919106,
+      "minOrderSize": 149,
+      "canBuy": true,
+      "canSell": true,
+      "name": "Japanese Yen"
+    },
+    {
+      "code": "KES",
+      "decimalPrecision": 2,
+      "maxOrderSize": 13579508,
+      "minOrderSize": 135,
+      "canBuy": true,
+      "canSell": false,
+      "name": "Kenyan Shilling"
+    },
+    {
+      "code": "KWD",
+      "decimalPrecision": 3,
+      "maxOrderSize": 39645,
+      "minOrderSize": 0,
+      "canBuy": true,
+      "canSell": true,
+      "name": "Kuwaiti Dinar"
+    },
+    {
+      "code": "LKR",
+      "decimalPrecision": 2,
+      "maxOrderSize": 20123682,
+      "minOrderSize": 201,
+      "canBuy": true,
+      "canSell": false,
+      "name": "Sri Lankan Rupee"
+    },
+    {
+      "code": "MUR",
+      "decimalPrecision": 2,
+      "maxOrderSize": 4487206,
+      "minOrderSize": 44,
+      "canBuy": true,
+      "canSell": false,
+      "name": "Mauritian Rupee"
+    },
+    {
+      "code": "MXN",
+      "decimalPrecision": 2,
+      "maxOrderSize": 2494756,
+      "minOrderSize": 24,
+      "canBuy": true,
+      "canSell": false,
+      "name": "Mexican Peso"
+    },
+    {
+      "code": "NOK",
+      "decimalPrecision": 2,
+      "maxOrderSize": 1067245,
+      "minOrderSize": 10,
+      "canBuy": true,
+      "canSell": true,
+      "name": "Norwegian Krone"
+    },
+    {
+      "code": "NZD",
+      "decimalPrecision": 2,
+      "maxOrderSize": 189312,
+      "minOrderSize": 1,
+      "canBuy": true,
+      "canSell": true,
+      "name": "New Zealand Dollar"
+    },
+    {
+      "code": "OMR",
+      "decimalPrecision": 3,
+      "maxOrderSize": 50442,
+      "minOrderSize": 0,
+      "canBuy": true,
+      "canSell": true,
+      "name": "Omani Rial"
+    },
+    {
+      "code": "PHP",
+      "decimalPrecision": 2,
+      "maxOrderSize": 6742592,
+      "minOrderSize": 67,
+      "canBuy": true,
+      "canSell": false,
+      "name": "Philippine Piso"
+    },
+    {
+      "code": "PLN",
+      "decimalPrecision": 2,
+      "maxOrderSize": 476455,
+      "minOrderSize": 4,
+      "canBuy": true,
+      "canSell": true,
+      "name": "Polish Zloty"
+    },
+    {
+      "code": "QAR",
+      "decimalPrecision": 2,
+      "maxOrderSize": 498321,
+      "minOrderSize": 4,
+      "canBuy": true,
+      "canSell": true,
+      "name": "Qatari Riyal"
+    },
+    {
+      "code": "RON",
+      "decimalPrecision": 2,
+      "maxOrderSize": 516532,
+      "minOrderSize": 5,
+      "canBuy": true,
+      "canSell": true,
+      "name": "Romanian Leu"
+    },
+    {
+      "code": "RSD",
+      "decimalPrecision": 2,
+      "maxOrderSize": 13396760,
+      "minOrderSize": 133,
+      "canBuy": true,
+      "canSell": false,
+      "name": "Serbia Dinar"
+    },
+    {
+      "code": "SAR",
+      "decimalPrecision": 2,
+      "maxOrderSize": 491318,
+      "minOrderSize": 4,
+      "canBuy": true,
+      "canSell": true,
+      "name": "Saudi Riyal"
+    },
+    {
+      "code": "SEK",
+      "decimalPrecision": 2,
+      "maxOrderSize": 1099507,
+      "minOrderSize": 10,
+      "canBuy": true,
+      "canSell": true,
+      "name": "Swedish Krona"
+    },
+    {
+      "code": "SGD",
+      "decimalPrecision": 2,
+      "maxOrderSize": 178142,
+      "minOrderSize": 1,
+      "canBuy": true,
+      "canSell": true,
+      "name": "Singapore Dollar"
+    },
+    {
+      "code": "THB",
+      "decimalPrecision": 2,
+      "maxOrderSize": 4335155,
+      "minOrderSize": 43,
+      "canBuy": true,
+      "canSell": false,
+      "name": "Thai Baht"
+    },
+    {
+      "code": "TND",
+      "decimalPrecision": 2,
+      "maxOrderSize": 328057,
+      "minOrderSize": 3,
+      "canBuy": true,
+      "canSell": true,
+      "name": "Tunisian Dinar"
+    },
+    {
+      "code": "TRY",
+      "decimalPrecision": 2,
+      "maxOrderSize": 499159,
+      "minOrderSize": 4,
+      "canBuy": true,
+      "canSell": false,
+      "name": "New Turkish Lira"
+    },
+    {
+      "code": "USD",
+      "decimalPrecision": 2,
+      "maxOrderSize": 131013,
+      "minOrderSize": 1,
+      "canBuy": true,
+      "canSell": true,
+      "name": "US Dollar"
+    },
+    {
+      "code": "ZAR",
+      "decimalPrecision": 2,
+      "maxOrderSize": 1833225,
+      "minOrderSize": 18,
+      "canBuy": true,
+      "canSell": false,
+      "name": "South African Rand"
+    }
+  ]
+}
